@@ -27,18 +27,18 @@ class Snake {
 public class Main {
     public static void main(String[] args) {
         Snake joc = new Snake();
-        for (int i = 0; i < 10; ++i) {
+        /*for (int i = 0; i < 10; ++i) {
             joc.deplasare(2);
-        }
-        for (int i = 0; i < 5; ++i) {
+        }*/
+        for (int i = 0; i < 10; ++i) {
             joc.deplasare(1);
         }
-        for (int i = 0; i < 10; ++i) {
+        for (int i = 0; i < 7; ++i) {
             joc.deplasare(0);
         }
-        for (int i = 0; i < 10; ++i) {
-            joc.deplasare(3);
-        }
+        /*for (int i = 0; i < 4; ++i) {
+            joc.deplasare(i);
+        }*/
         System.out.println("mutari valide = " + joc.mutariValide());
 
     }
